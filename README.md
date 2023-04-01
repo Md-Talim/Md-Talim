@@ -1,4 +1,5 @@
-### Hi there 👋
+### Hi there, I'm Talim! 👋
+<p><em>Dimploma CSE Student at <a href="https://gpindri.ac.in/">Govt. Polytechnic Indri</a></p>
 
 <!--
 **Md-Talim/Md-Talim** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
