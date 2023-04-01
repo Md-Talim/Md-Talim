@@ -1,17 +1,21 @@
 ### Hi there, I'm Talim! 👋
 <p><em>Dimploma CSE Student at <a href="https://gpindri.ac.in/">Govt. Polytechnic Indri</a></p>
 
-<!--
-**Md-Talim/Md-Talim** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- 🌱 I’m currently learning React
+- 🧐 Interested in Artificial Intelligence
+<!-- - ⚡ Fun fact: ... -->
 
-Here are some ideas to get you started:
+<!-- ### A little more about me...  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```javascript
+const Talim = {
+  code: [Javascript, HTML, CSS],
+  tools: [React, TailwindCSS, Git, NPM, Vite],
+}
+``` -->
+
+### Tools and Languages
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,react,tailwind,vite,git,github,vscode,netlify&perline=5)](https://skillicons.dev)
+
+
+
