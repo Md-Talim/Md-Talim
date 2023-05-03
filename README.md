@@ -15,7 +15,7 @@ const Talim = {
 ``` -->
 
 ### Tools and Languages
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,react,tailwind,vite,git,github,vscode,netlify&perline=5)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,react,tailwind,vite,git,github,vscode,vercel&perline=5)](https://skillicons.dev)
 
 
 
