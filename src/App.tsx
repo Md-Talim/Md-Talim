@@ -1,25 +1,7 @@
 import Button from './components/Button';
-import { LinkedinIcon, GithubIcon, GmailIcon } from './components/icons';
+import { contacts } from './constants';
 
 const App = () => {
-  const contacts = [
-    {
-      name: 'Github',
-      link: 'https://www.github.com/Md-Talim/',
-      icon: <GithubIcon />,
-    },
-    {
-      name: 'LinkedIn',
-      link: 'https://www.linkedin.com/in/md-talim/',
-      icon: <LinkedinIcon />,
-    },
-    {
-      name: 'Gmail',
-      link: 'mailto:mohd.talim.work@gmail.com',
-      icon: <GmailIcon />,
-    },
-  ];
-
   return (
     <main className='mx-auto flex min-h-screen max-w-3xl flex-col justify-center gap-4 px-8'>
       <h1 className='font-serif text-3xl font-bold'>Mohammad Talim</h1>
