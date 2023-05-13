@@ -10,7 +10,7 @@ export default {
         lighter: '#EEEEEE',
       },
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
+        sans: ['GlacialIndifference-Regular', 'sans-serif'],
         serif: ['Merriweather', 'serif'],
       },
     },

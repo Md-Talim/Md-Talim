@@ -5,10 +5,10 @@ const Home = () => {
   return (
     <section className='space-y-6 py-4'>
       <header className='space-y-1'>
-        <h1 className='font-serif text-3xl font-bold'>Mohammad Talim</h1>
+        <h1 className='text-3xl font-bold'>Mohammad Talim</h1>
         <p className=''>CSE Student, Front-end Engineer.</p>
       </header>
-      <p className='max-w-[60ch] tracking-wider text-dark'>
+      <p className='max-w-[60ch] tracking-wide text-dark'>
         Hey, I'm Talim. A Computer Science Student at{' '}
         <span className='font-bold'>Govt. Polytechnic College, Indri</span>
         .

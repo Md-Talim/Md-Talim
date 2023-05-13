@@ -1,10 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Merriweather:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: GlacialIndifference-Regular;
+  src: url('./fonts/GlacialIndifference-Regular.woff');
+}
+
 body {
   @apply min-h-screen bg-lighter text-darker;
+}
+
+h1,
+h2 {
+  @apply font-serif;
 }
 
 ::selection {
