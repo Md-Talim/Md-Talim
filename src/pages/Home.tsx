@@ -9,7 +9,7 @@ const Home = () => {
         <p className=''>CSE Student, Front-end Engineer.</p>
       </header>
       <p className='max-w-[60ch] tracking-wider text-dark'>
-        Hey, I'm Talim. A Computer Science Student at a{' '}
+        Hey, I'm Talim. A Computer Science Student at{' '}
         <span className='font-bold'>Govt. Polytechnic College, Indri</span>
         .
         <br />I am a beginner front-end engineer with experience in{' '}
@@ -20,9 +20,9 @@ const Home = () => {
         I have a passion for creating beautiful and functional user interfaces
         and am eager to continue learning and growing in the field.
       </p>
-      <ul className='mt-6 flex gap-4'>
+      <ul className='mt-6 flex flex-col gap-4 md:flex-row'>
         {contacts.map((contact, index) => (
-          <li key={index}>
+          <li key={index} className='w-fit'>
             <Button {...contact} />
           </li>
         ))}

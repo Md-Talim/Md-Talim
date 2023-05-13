@@ -5,14 +5,14 @@ import { HomeIcon, ProjectIcon } from './icons';
 
 const NavBar = () => {
   return (
-    <nav className='hidden w-1/3 border-r-2 border-r-darker md:block'>
-      <div className='space-y-4 px-4'>
+    <nav className='mt-4 md:w-1/5 md:border-r-2 md:border-r-darker'>
+      <div className='flex items-center justify-between md:flex-col md:gap-4'>
         <img
           src={logo}
           alt='m in cursive'
-          className='mx-8 aspect-square w-20'
+          className='aspect-square w-20'
         />
-        <ul className='flex flex-col gap-2'>
+        <ul className='flex flex-row gap-2 md:flex-col'>
           <li className=''>
             <NavLink
               to='/'
