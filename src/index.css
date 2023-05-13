@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-lighter text-darker;
+  @apply min-h-screen bg-lighter text-darker;
 }
 
 ::selection {
