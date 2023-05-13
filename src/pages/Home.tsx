@@ -13,10 +13,12 @@ const Home = () => {
         <span className='font-bold'>Govt. Polytechnic College, Indri</span>
         .
         <br />I am a beginner front-end engineer with experience in{' '}
-        <span className='font-bold'>React</span> and
-        <span className='font-bold'> TailwindCSS</span>. I have a passion for
-        creating beautiful and functional user interfaces and am eager to
-        continue learning and growing in the field.
+        <span className='bg-primary font-bold text-lighter'>
+          React
+        </span> and{' '}
+        <span className='bg-primary font-bold text-lighter'>TailwindCSS</span>.
+        I have a passion for creating beautiful and functional user interfaces
+        and am eager to continue learning and growing in the field.
       </p>
       <ul className='mt-6 flex gap-4'>
         {contacts.map((contact, index) => (
