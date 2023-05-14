@@ -39,8 +39,8 @@ const projects: Project[] = [
     src: gameshub,
     description:
       'Games Hub is a games database. It is powered by raw games api.',
-    codeLink: 'https://www.github.com/md-talim/games-hub/',
-    liveLink: 'https://games-hub-rho.vercel.app/',
+    codeLink: 'https://www.github.com/md-talim/game-hub/',
+    liveLink: 'https://gameshub-rho.vercel.app/',
   },
   {
     name: 'Search X',
