@@ -5,8 +5,8 @@ import { HomeIcon, ProjectIcon } from './icons';
 
 const NavBar = () => {
   return (
-    <nav className='-mx-4 md:mx-0 md:w-[150px] md:flex-shrink-0 md:px-0'>
-      <div className='lg:sticky lg:top-0'>
+    <nav className='-mx-4 w-full md:mx-0 md:w-[150px] md:flex-shrink-0 md:px-0'>
+      <div className='flex items-center justify-between md:flex-col'>
         <img src={logo} alt='m in cursive' className='aspect-square w-20' />
         <ul className='flex flex-row gap-2 md:flex-col'>
           <li>
