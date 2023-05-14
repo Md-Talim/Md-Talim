@@ -1,12 +1,13 @@
+import { gameshub, searchx } from '../assets';
 import { GithubIcon, GmailIcon, LinkedinIcon } from '../components/icons';
 
-type contactType = {
+interface Contact {
   name: string;
   link: string;
   icon: () => JSX.Element;
-}[];
+}
 
-const contacts: contactType = [
+const contacts: Contact[] = [
   {
     name: 'Github',
     link: 'https://www.github.com/Md-Talim/',
@@ -24,4 +25,31 @@ const contacts: contactType = [
   },
 ];
 
-export { contacts };
+interface Project {
+  name: string;
+  src: string;
+  description: string;
+  codeLink: string;
+  liveLink: string;
+}
+
+const projects: Project[] = [
+  {
+    name: 'Games Hub',
+    src: gameshub,
+    description:
+      'Games Hub is a games database. It is powered by raw games api.',
+    codeLink: 'https://www.github.com/md-talim/games-hub/',
+    liveLink: 'https://games-hub-rho.vercel.app/',
+  },
+  {
+    name: 'Search X',
+    src: searchx,
+    description:
+      'Search X is search engine. It uses the progammable search engine api from Google.',
+    codeLink: 'https://www.github.com/md-talim/search-x/',
+    liveLink: 'https://searchx-seven.vercel.app/',
+  },
+];
+
+export { contacts, projects };

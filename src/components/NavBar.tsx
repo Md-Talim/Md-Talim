@@ -5,15 +5,11 @@ import { HomeIcon, ProjectIcon } from './icons';
 
 const NavBar = () => {
   return (
-    <nav className='mt-4 md:w-1/5 md:border-r-2 md:border-r-darker'>
-      <div className='flex items-center justify-between md:flex-col md:gap-4'>
-        <img
-          src={logo}
-          alt='m in cursive'
-          className='aspect-square w-20'
-        />
+    <nav className='-mx-4 md:mx-0 md:w-[150px] md:flex-shrink-0 md:px-0'>
+      <div className='lg:sticky lg:top-0'>
+        <img src={logo} alt='m in cursive' className='aspect-square w-20' />
         <ul className='flex flex-row gap-2 md:flex-col'>
-          <li className=''>
+          <li>
             <NavLink
               to='/'
               className={({ isActive }) => (isActive ? active : unActive)}
@@ -22,7 +18,7 @@ const NavBar = () => {
               Home
             </NavLink>
           </li>
-          <li className=''>
+          <li>
             <NavLink
               to='/work'
               className={({ isActive }) => (isActive ? active : unActive)}

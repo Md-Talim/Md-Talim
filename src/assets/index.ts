@@ -1,3 +1,5 @@
+import gameshub from './gameshub.png';
 import logo from './logo.svg';
+import searchx from './searchx.png';
 
-export { logo };
+export { gameshub, logo, searchx };
