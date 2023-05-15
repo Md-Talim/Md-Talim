@@ -7,7 +7,7 @@ const Home = () => {
       <header className='space-y-1'>
         <p className='text-sm'>Hi, my name is</p>
         <h1 className='text-4xl font-bold leading-snug'>
-          Mohammad Talim
+          Mohammad Talim.
           <br /> I build things for the web.
         </h1>
         <p>CSE Student, Front-end Engineer.</p>

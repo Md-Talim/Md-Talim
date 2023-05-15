@@ -46,7 +46,7 @@ const projects: Project[] = [
     name: 'Search X',
     src: searchx,
     description:
-      'Search X is search engine. It uses the progammable search engine api from Google.',
+      'Search X is a search engine. It uses the progammable search engine api from Google.',
     codeLink: 'https://www.github.com/md-talim/search-x/',
     liveLink: 'https://searchx-seven.vercel.app/',
   },
