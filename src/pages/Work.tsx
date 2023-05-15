@@ -5,7 +5,7 @@ const Work = () => {
   return (
     <section className='space-y-4'>
       <h2 className='text-2xl font-bold'>Projects</h2>
-      <section className='grid grid-cols-1 md:grid-cols-2 gap-8'>
+      <section className='mb-8 grid grid-cols-1 gap-8 md:mb-0 md:grid-cols-2'>
         {projects.map((project, index) => (
           <article
             key={index}
