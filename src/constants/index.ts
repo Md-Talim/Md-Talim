@@ -1,3 +1,4 @@
+import { StaticImageData } from 'next/image';
 import { gameshub, searchx } from '../assets';
 import { GithubIcon, GmailIcon, LinkedinIcon } from '../components/icons';
 
@@ -27,7 +28,7 @@ const contacts: Contact[] = [
 
 interface Project {
   name: string;
-  src: string;
+  src: StaticImageData;
   description: string;
   codeLink: string;
   liveLink: string;
