@@ -1,6 +1,10 @@
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: ['./src/**/*.{js,jsx,ts,tsx}'],
+module.exports = {
+  content: [
+    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+  ],
   theme: {
     extend: {
       colors: {
@@ -10,7 +14,7 @@ export default {
         lighter: '#EEEEEE',
       },
       fontFamily: {
-        sans: ['GlacialIndifference-Regular', 'sans-serif'],
+        sans: ['Poppins', 'sans-serif'],
         serif: ['Merriweather', 'serif'],
       },
     },

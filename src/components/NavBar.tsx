@@ -1,28 +1,22 @@
-import { NavLink } from 'react-router-dom';
+import Image from 'next/image';
 import { logo } from '../assets';
-import { active, unActive } from '../styles';
+import NavLink from './NavLink';
 import { HomeIcon, ProjectIcon } from './icons';
 
 const NavBar = () => {
   return (
     <nav className='-mx-4 w-full md:mx-0 md:h-screen md:w-[150px] md:flex-shrink-0 md:px-0'>
       <div className='flex items-center justify-between md:sticky md:top-52 md:flex-col'>
-        <img src={logo} alt='m in cursive' className='aspect-square w-20' />
+        <Image src={logo} alt='m in cursive' className='aspect-square w-20' />
         <ul className='flex flex-row gap-2 md:flex-col'>
           <li>
-            <NavLink
-              to='/'
-              className={({ isActive }) => (isActive ? active : unActive)}
-            >
+            <NavLink link='/'>
               <HomeIcon />
               Home
             </NavLink>
           </li>
           <li>
-            <NavLink
-              to='/work'
-              className={({ isActive }) => (isActive ? active : unActive)}
-            >
+            <NavLink link='/work'>
               <ProjectIcon />
               Work
             </NavLink>

@@ -1,7 +1,7 @@
-import Button from '../components/Button';
-import { contacts } from '../constants';
+import Button from '@/components/Button';
+import { contacts } from '@/constants';
 
-const Home = () => {
+export default function Home() {
   return (
     <section className='space-y-6 py-4'>
       <header className='space-y-1'>
@@ -33,6 +33,4 @@ const Home = () => {
       </ul>
     </section>
   );
-};
-
-export default Home;
+}
