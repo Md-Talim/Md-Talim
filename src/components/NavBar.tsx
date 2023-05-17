@@ -5,10 +5,10 @@ import { HomeIcon, ProjectIcon } from './icons';
 
 const NavBar = () => {
   return (
-    <nav className='-mx-4 w-full md:mx-0 md:h-screen md:w-[150px] md:flex-shrink-0 md:px-0'>
-      <div className='flex items-center justify-between md:sticky md:top-52 md:flex-col'>
+    <nav className='mx-auto h-24 w-full max-w-5xl py-8'>
+      <div className='flex items-center justify-between'>
         <Image src={logo} alt='m in cursive' className='aspect-square w-20' />
-        <ul className='flex flex-row gap-2 md:flex-col'>
+        <ul className='flex flex-row gap-2'>
           <li>
             <NavLink link='/'>
               <HomeIcon />

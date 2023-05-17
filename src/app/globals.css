@@ -3,10 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  @apply min-h-screen bg-lighter text-darker md:flex md:items-center md:justify-center;
-}
-
 h1,
 h2 {
   @apply font-serif;
