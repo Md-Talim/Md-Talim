@@ -13,7 +13,7 @@ export default function Home() {
         <p>CSE Student, Front-end Engineer.</p>
       </header>
       <p className='max-w-[60ch] tracking-wide text-dark'>
-        Hey, I'm Talim. A Computer Science Student at{' '}
+        Hey, I&apos;m Talim. A Computer Science Student at{' '}
         <span className='font-bold'>Govt. Polytechnic College, Indri</span>
         .
         <br />I am a beginner front-end engineer with experience in{' '}
