@@ -5,7 +5,7 @@ import { HomeIcon, ProjectIcon } from './icons';
 
 const NavBar = () => {
   return (
-    <nav className='fixed left-0 top-0 w-full'>
+    <nav className='w-full'>
       <div className='mx-auto flex max-w-4xl items-center justify-between p-8 lg:max-w-5xl lg:px-4'>
         <Image src={logo} alt='m in cursive' className='aspect-square w-20' />
         <ul className='flex flex-row gap-2'>

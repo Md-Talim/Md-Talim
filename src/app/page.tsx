@@ -3,11 +3,11 @@ import { contacts } from '@/constants';
 
 export default function Home() {
   return (
-    <main className='flex h-screen items-center justify-center px-8'>
+    <main className='flex items-center justify-center p-8 lg:p-0'>
       <section className='space-y-4'>
         <header className='space-y-2'>
           <p>Hi, my name is</p>
-          <h1 className='flex flex-col gap-2 text-4xl font-bold text-lighter md:gap-4 md:text-6xl'>
+          <h1 className='flex flex-col gap-2 text-3xl font-bold text-lighter md:gap-4 md:text-4xl lg:text-6xl'>
             Mohammad Talim.
             <span className='block'>I build things for the web.</span>
           </h1>
