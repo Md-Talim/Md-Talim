@@ -13,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <body className='container mx-auto bg-lighter'>
+      <body className='container max-w-5xl mx-auto bg-darker text-light'>
         <NavBar />
         {children}
       </body>
