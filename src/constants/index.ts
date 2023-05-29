@@ -17,12 +17,12 @@ const contacts: Contact[] = [
   {
     name: 'LinkedIn',
     link: 'https://www.linkedin.com/in/md-talim/',
-    icon: GmailIcon,
+    icon: LinkedinIcon,
   },
   {
     name: 'Gmail',
     link: 'mailto:mohd.talim.work@gmail.com',
-    icon: LinkedinIcon,
+    icon: GmailIcon,
   },
 ];
 
