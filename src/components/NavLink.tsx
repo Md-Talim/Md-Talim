@@ -17,7 +17,7 @@ const NavLink = ({ link, children }: Props) => {
       className={
         pathName === link
           ? 'flex items-center gap-2 rounded-full bg-primary px-4 py-2 text-lighter transition-[padding] hover:px-8'
-          : 'flex items-center gap-2 rounded-full bg-dark px-4 py-2 transition-all hover:px-8'
+          : 'flex items-center gap-2 rounded-full bg-light px-4 py-2 transition-all hover:px-8'
       }
       href={link}
     >
