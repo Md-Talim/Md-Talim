@@ -4,14 +4,14 @@ import Image from 'next/image';
 
 function Work() {
   return (
-    <main className="px-16">
-      <section className="space-y-4">
+    <main className="mb-8 px-8 lg:px-16">
+      <section className="space-y-8">
         <h2 className="font text-4xl font-medium">Things I have build</h2>
-        <section className="grid grid-cols-2 gap-8">
+        <section className="grid grid-cols-1 gap-8 md:grid-cols-2">
           {projects.map((project, index) => (
             <article
               key={index}
-              className="space-y-8 rounded-xl bg-light p-8 shadow-lg"
+              className="space-y-8 rounded-xl bg-light p-4 shadow-lg md:p-6 lg:p-8"
             >
               <Image
                 src={project.src}
