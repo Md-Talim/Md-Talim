@@ -4,31 +4,31 @@ import Image from 'next/image';
 
 function Work() {
   return (
-    <main className="mx-auto flex max-w-4xl items-center justify-center p-8 lg:p-0">
+    <main className="px-16">
       <section className="space-y-4">
-        <h2 className="text-2xl font-bold">Projects</h2>
-        <section className="mb-8 grid grid-cols-1 gap-8 md:mb-0 md:grid-cols-2">
+        <h2 className="font text-4xl font-medium">Things I have build</h2>
+        <section className="grid grid-cols-2 gap-8">
           {projects.map((project, index) => (
             <article
               key={index}
-              className="flex flex-col gap-2 rounded-md bg-black p-4 shadow-2xl"
+              className="space-y-8 rounded-xl bg-light p-8 shadow-lg"
             >
               <Image
                 src={project.src}
                 alt={project.name}
-                className=" rounded-lg"
+                className="rounded-lg"
               />
-              <h3 className="text-lg font-bold text-lighter">{project.name}</h3>
-              <p className="flex-1 text-light opacity-80">
-                {project.description}
-              </p>
-              <div className="mt-4 flex gap-4">
-                <a href={project.codeLink} target="_blank">
-                  <GithubIcon />
-                </a>
-                <a href={project.liveLink} target="_blank">
-                  <LinkIcon />
-                </a>
+              <div className="flex flex-col gap-2">
+                <h3 className="text-2xl font-bold">{project.name}</h3>
+                <p className="opacity-80">{project.description}</p>
+                <div className="mt-4 flex gap-4">
+                  <a href={project.codeLink} target="_blank">
+                    <GithubIcon />
+                  </a>
+                  <a href={project.liveLink} target="_blank">
+                    <LinkIcon />
+                  </a>
+                </div>
               </div>
             </article>
           ))}
