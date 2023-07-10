@@ -10,7 +10,7 @@ const Button = ({ name, icon, link }: Props) => {
   return (
     <a
       href={link}
-      className="flex items-center gap-2 rounded-full border-2 border-light px-24 py-4 transition hover:border-primary hover:bg-primary hover:text-lighter"
+      className="flex items-center gap-2 rounded-full border-2 border-light px-16 py-4 transition hover:border-primary hover:bg-primary hover:text-lighter lg:px-24"
       target="_blank"
     >
       {icon()}

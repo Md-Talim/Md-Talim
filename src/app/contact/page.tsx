@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 const Contact = () => {
   return (
     <main className="px-16 py-40">
-      <h2 className="text-6xl">Let&apos; work together</h2>
+      <h2 className="text-3xl md:text-6xl">Let&apos;s work together</h2>
       <ul className="mt-6 flex flex-col gap-4 md:flex-row">
         {contacts.map((contact, index) => (
           <motion.li
