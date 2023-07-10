@@ -1,4 +1,5 @@
 'use client';
+
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { ReactNode } from 'react';
@@ -15,8 +16,8 @@ const NavLink = ({ link, children }: Props) => {
     <Link
       className={
         pathName === link
-          ? 'flex items-center gap-2 rounded-lg bg-primary px-4 py-2 text-lighter transition'
-          : 'flex items-center gap-2 rounded-lg px-4 py-2 transition hover:bg-dark hover:text-lighter'
+          ? 'flex items-center gap-2 rounded-full bg-primary px-4 py-2 text-lighter transition-[padding] hover:px-8'
+          : 'flex items-center gap-2 rounded-full bg-dark px-4 py-2 transition-all hover:px-8'
       }
       href={link}
     >
