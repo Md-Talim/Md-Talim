@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const Hero = () => {
   return (
-    <section className="space-y-8 px-16 pt-40">
+    <section className="space-y-8 pt-20 lg:px-16 lg:pt-40">
       <Header />
       <motion.div
         initial={{ opacity: 0, y: 100 }}
@@ -15,7 +15,7 @@ const Hero = () => {
       >
         <Link
           href="/contact"
-          className="mt-10 inline-block rounded-full bg-primary px-16 py-6 text-xl font-bold text-white"
+          className="mt-5 inline-block rounded-full bg-primary px-12 py-4 text-xl font-bold text-white md:mt-10 md:px-16 md:py-6"
         >
           Get in touch
         </Link>
