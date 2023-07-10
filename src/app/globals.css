@@ -1,12 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap&family=Merriweather:wght@400;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-h1,
-h2 {
-  @apply font-serif;
-}
 
 ::selection {
   color: #eeeeee;
