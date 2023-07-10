@@ -9,7 +9,7 @@ const Header = () => {
       animate={{ opacity: 1 }}
       transition={{ duration: 0.2 }}
     >
-      <h1 className="max-w-5xl text-6xl uppercase leading-snug">
+      <h1 className="max-w-5xl text-6xl uppercase leading-tight">
         Hi, I&apos;m Talim.
         <br /> A Front-End Developer, UI Designer, building good things for the
         web.

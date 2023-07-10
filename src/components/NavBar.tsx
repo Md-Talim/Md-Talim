@@ -17,7 +17,7 @@ const NavBar = () => {
         <Link href="/" className="text-xl font-bold tracking-wide">
           tALIM
         </Link>
-        <ul className="flex flex-row gap-2">
+        <ul className="flex flex-row gap-4">
           <li>
             <NavLink link="/">
               <HomeIcon />
@@ -28,6 +28,12 @@ const NavBar = () => {
             <NavLink link="/work">
               <ProjectIcon />
               Work
+            </NavLink>
+          </li>
+          <li>
+            <NavLink link="/contact">
+              <ProjectIcon />
+              Contact
             </NavLink>
           </li>
         </ul>
