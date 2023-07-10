@@ -20,9 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body
-        className={`${inter.variable} container mx-auto grid min-h-screen max-w-5xl grid-rows-[100px,_1fr] bg-darker text-light`}
-      >
+      <body className={`${inter.variable} min-h-screen`}>
         <NavBar />
         {children}
       </body>

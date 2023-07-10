@@ -1,10 +1,9 @@
 'use client';
 
-import Image from 'next/image';
-import { logo } from '../assets';
 import NavLink from './NavLink';
 import { HomeIcon, ProjectIcon } from './icons';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 const NavBar = () => {
   return (
@@ -14,8 +13,10 @@ const NavBar = () => {
       transition={{ duration: 0.5, delay: 0.2 }}
       className="w-full"
     >
-      <div className="mx-auto flex max-w-4xl items-center justify-between p-8 lg:max-w-5xl lg:px-4">
-        <Image src={logo} alt="m in cursive" className="aspect-square w-20" />
+      <div className="mx-auto flex items-center justify-between p-8 lg:px-16">
+        <Link href="/" className="text-xl font-bold tracking-wide">
+          tALIM
+        </Link>
         <ul className="flex flex-row gap-2">
           <li>
             <NavLink link="/">
