@@ -6,22 +6,22 @@ import { ReactNode } from 'react';
 
 interface Props {
   link: string;
-  children: ReactNode;
+  name: string;
 }
 
-const NavLink = ({ link, children }: Props) => {
+const NavLink = ({ link, name }: Props) => {
   const pathName = usePathname();
 
   return (
     <Link
       className={
         pathName === link
-          ? 'flex items-center gap-2 rounded-full bg-primary px-4 py-2 text-lighter transition-[padding] hover:px-8'
-          : 'flex items-center gap-2 rounded-full bg-light px-4 py-2 transition-all hover:px-8'
+          ? 'rounded-full bg-primary px-6 py-2 font-bold text-lighter transition-[padding] hover:px-8'
+          : 'rounded-full bg-light px-6 py-2 transition-[padding] hover:px-8'
       }
       href={link}
     >
-      {children}
+      {name}
     </Link>
   );
 };

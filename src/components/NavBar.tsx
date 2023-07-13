@@ -19,22 +19,13 @@ const NavBar = () => {
         </Link>
         <ul className="flex flex-row gap-4">
           <li>
-            <NavLink link="/">
-              <HomeIcon />
-              Home
-            </NavLink>
+            <NavLink link="/" name="Home" />
           </li>
           <li>
-            <NavLink link="/work">
-              <ProjectIcon />
-              Work
-            </NavLink>
+            <NavLink link="/work" name="Work" />
           </li>
           <li>
-            <NavLink link="/contact">
-              <ProjectIcon />
-              Contact
-            </NavLink>
+            <NavLink link="/contact" name="Contact" />
           </li>
         </ul>
       </div>
