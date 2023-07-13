@@ -9,8 +9,8 @@ const Hero = () => {
     <section className="container mx-auto flex w-full flex-col items-center justify-between gap-10 space-y-8 pt-20 text-center sm:flex-row md:text-left lg:px-16 lg:pt-40">
       <div>
         <motion.header
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
+          initial={{ opacity: 0, x: -100 }}
+          animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.2 }}
         >
           <h1 className="max-w-[25ch] text-3xl leading-tight md:text-4xl lg:text-6xl">
@@ -34,7 +34,11 @@ const Hero = () => {
           </Link>
         </motion.div>
       </div>
-      <div className="">
+      <motion.div
+        initial={{ opacity: 0, x: 100 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.5, delay: 0.4 }}
+      >
         <Image
           src="/hero.svg"
           alt="web developer"
@@ -42,7 +46,7 @@ const Hero = () => {
           height="400"
           className="relative max-w-full"
         />
-      </div>
+      </motion.div>
     </section>
   );
 };
