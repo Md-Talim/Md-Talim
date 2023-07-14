@@ -1,7 +1,6 @@
 'use client';
 
 import NavLink from './NavLink';
-import { HomeIcon, ProjectIcon } from './icons';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 
