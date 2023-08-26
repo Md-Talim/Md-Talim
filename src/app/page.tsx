@@ -1,10 +1,6 @@
 import Container from '@/components/Container';
 import CopyToClipboard from '@/components/CopyToClipboard';
-import {
-  GitHubIcon,
-  LinkedInIcon,
-  TwitterIcon,
-} from '@/components/SocialIcons';
+import { GitHubIcon, LinkedInIcon } from '@/components/SocialIcons';
 import Link from 'next/link';
 
 const SocialLink = ({
@@ -27,11 +23,11 @@ const Home = () => {
   return (
     <>
       <Container className="mt-9">
-        <div className="max-w-2xl">
-          <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl">
+        <div className="max-w-3xl">
+          <h1 className="text-4xl text-zinc-800 sm:text-5xl">
             Frontend developer, UI designer, and programmer.
           </h1>
-          <p className="mt-6 text-base text-zinc-600">
+          <p className="mt-6 text-lg text-zinc-600">
             I’m Talim, a Frontend developer and user interface designer. I’m
             final year student of Diploma in Computer Science Engineering.
           </p>

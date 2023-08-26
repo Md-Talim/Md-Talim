@@ -30,7 +30,7 @@ const CopyToClipboard = ({ text }: Props) => {
       className="mt-6 flex gap-2"
       onClick={() => navigator.clipboard.writeText(text)}
     >
-      <p>{text}</p>
+      <p className="text-lg">{text}</p>
       <div className="max-w-full">
         <CopyIcon />
       </div>

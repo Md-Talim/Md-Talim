@@ -1,10 +1,13 @@
+import { Layout } from '@/components/Layout';
 import '@/styles/globals.css';
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { Bricolage_Grotesque } from 'next/font/google';
 import { Providers } from './providers';
-import { Layout } from '@/components/Layout';
 
-const inter = Inter({ subsets: ['latin'] });
+const bricolageGrotesque = Bricolage_Grotesque({
+  weight: ['400', '700'],
+  subsets: ['latin'],
+});
 
 export const metadata: Metadata = {
   title: {
@@ -21,7 +24,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="h-full antialiased" suppressHydrationWarning>
-      <body className={`flex h-full bg-zinc-50 ${inter.className}`}>
+      <body
+        className={`flex h-full bg-zinc-50 ${bricolageGrotesque.className}`}
+      >
         <Providers>
           <div className="flex w-full">
             <Layout>{children}</Layout>
