@@ -5,7 +5,7 @@ import clsx from 'clsx';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Fragment, useRef } from 'react';
-import { Container } from './Container';
+import Container from './Container';
 
 const ChevronDownIcon = (props: { className: string }) => (
   <svg viewBox="0 0 8 6" aria-hidden="true" {...props}>
