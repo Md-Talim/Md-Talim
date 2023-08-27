@@ -9,7 +9,7 @@ const variantStyles: Record<string, string> = {
   primary:
     'bg-zinc-800 font-medium text-zinc-100 hover:bg-zinc-700 active:bg-zinc-800 active:text-zinc-100/70',
   secondary:
-    'bg-zinc-50 font-medium text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60',
+    'bg-zinc-50 ring-1 ring-zinc-100 font-medium text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60',
 };
 
 const Button: React.FC<ButtonProps> = ({
