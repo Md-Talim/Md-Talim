@@ -1,10 +1,10 @@
 import { Layout } from '@/components/Layout';
 import '@/styles/globals.css';
 import type { Metadata } from 'next';
-import { Bricolage_Grotesque } from 'next/font/google';
+import { Outfit } from 'next/font/google';
 import { Providers } from './providers';
 
-const bricolageGrotesque = Bricolage_Grotesque({
+const outfit = Outfit({
   weight: ['400', '700'],
   subsets: ['latin'],
 });
@@ -24,9 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="h-full antialiased" suppressHydrationWarning>
-      <body
-        className={`flex h-full bg-zinc-50 ${bricolageGrotesque.className}`}
-      >
+      <body className={`flex h-full bg-zinc-50 ${outfit.className}`}>
         <Providers>
           <div className="flex w-full">
             <Layout>{children}</Layout>

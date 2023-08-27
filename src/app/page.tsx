@@ -24,10 +24,10 @@ const Home = () => {
     <>
       <Container className="mt-9">
         <div className="max-w-3xl">
-          <h1 className="text-4xl text-zinc-800 sm:text-5xl">
-            Frontend developer, UI designer, and programmer.
+          <h1 className="text-4xl font-semibold text-zinc-800 sm:text-5xl">
+            I Design & Develop Websites.
           </h1>
-          <p className="mt-6 text-lg text-zinc-600">
+          <p className="mt-6 text-2xl text-zinc-600">
             I’m Talim, a Frontend developer and user interface designer. I’m
             final year student of Diploma in Computer Science Engineering.
           </p>
