@@ -89,7 +89,7 @@ const MobileNavigation = (props: { className: string }) => (
           </div>
           <nav className="mt-6">
             <ul className="-my-2 divide-y divide-zinc-100 text-base text-zinc-800">
-              <MobileNavItem href="#about">About</MobileNavItem>
+              <MobileNavItem href="/">Home</MobileNavItem>
               <MobileNavItem href="/projects">Projects</MobileNavItem>
               <MobileNavItem href="#contact">Contact</MobileNavItem>
             </ul>
