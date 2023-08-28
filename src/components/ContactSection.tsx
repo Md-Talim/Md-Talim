@@ -1,4 +1,5 @@
 import Container from './Container';
+import CopyToClipboard from './CopyToClipboard';
 import SocialLinks from './SocialLinks';
 
 const ContactSection = () => {
@@ -14,9 +15,16 @@ const ContactSection = () => {
           Let&apos;s connect and make something awesome together! If you need
           help, have questions, or just want to chat, I&apos;m here for you.
           Feel free to drop me a line anytime!
+          <br />
+          <br />
+          P.S. Do you like my portfolio? If not, please let me know what I can
+          do to improve it. Your input is highly appreciated! 🙌
         </p>
       </div>
-      <SocialLinks />
+      <div className="mt-4 flex items-center gap-8">
+        <CopyToClipboard variant="secondary" text="mohd.talim.work@gmail.com" />
+        <SocialLinks />
+      </div>
     </Container>
   );
 };

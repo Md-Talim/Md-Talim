@@ -21,13 +21,15 @@ const CopyIcon = () => (
 
 interface Props {
   text: string;
+  variant?: 'primary' | 'secondary';
 }
 
-const CopyToClipboard = ({ text }: Props) => {
+const CopyToClipboard = ({ text, variant = 'primary' }: Props) => {
   return (
     <Button
       type="button"
       className="mt-6 flex gap-2"
+      variant={variant}
       onClick={() => navigator.clipboard.writeText(text)}
     >
       <p className="text-lg">{text}</p>
