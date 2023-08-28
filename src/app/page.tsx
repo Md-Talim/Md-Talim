@@ -88,7 +88,7 @@ const Home = () => {
         </Button>
       </Container>
 
-      <Container className="mt-20">
+      <Container className="mt-20" id="contact">
         <div className="max-w-3xl">
           <h2 className="text-3xl font-semibold text-zinc-800 sm:text-4xl">
             Let&apos;s Connect and Collaborate
