@@ -9,7 +9,7 @@ const ContactSection = () => {
         <h2 className="text-3xl font-semibold text-zinc-800 sm:text-4xl">
           Let&apos;s Connect and Collaborate
         </h2>
-        <p className="mt-3 text-2xl text-zinc-600">
+        <p className="mt-3 lg:text-2xl md:text-xl text-lg text-zinc-600">
           Hey friend 👋,
           <br />
           Let&apos;s connect and make something awesome together! If you need

@@ -12,11 +12,11 @@ const ProjectCard = ({
   imageSrc,
 }: Project) => {
   return (
-    <article className="bg-zinc-50 ring-1 ring-zinc-100 md:px-8 md:py-10 px-6 py-8 rounded-2xl justify-between flex flex-col-reverse md:flex-row gap-8">
+    <article className="bg-zinc-50 ring-1 ring-zinc-100 lg:px-8 px-6 max-sm:px-4 py-8 rounded-2xl justify-between flex flex-col-reverse md:flex-row gap-8">
       <div className="flex flex-col max-md:gap-8 justify-between flex-1">
         <div className="flex flex-col gap-1">
           <h2 className="lg:text-3xl text-zinc-800 text-2xl">{name}</h2>
-          <p className="lg:text-2xl text-xl text-zinc-600 max-w-[50ch]">
+          <p className="xl:text-2xl lg:text-xl md:text-base text-lg text-zinc-600 max-w-[50ch]">
             {description}
           </p>
         </div>

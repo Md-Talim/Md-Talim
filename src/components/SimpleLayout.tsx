@@ -13,7 +13,9 @@ export function SimpleLayout({ title, intro, children }: Props) {
         <h1 className="text-4xl font-semibold tracking-normal text-zinc-800 dark:text-zinc-100 sm:text-5xl">
           {title}
         </h1>
-        <p className="mt-6 text-lg text-zinc-600 dark:text-zinc-400">{intro}</p>
+        <p className="mt-6 lg:text-2xl md:text-xl text-lg text-zinc-600 dark:text-zinc-400">
+          {intro}
+        </p>
       </header>
       <div className="mt-16 sm:mt-20">{children}</div>
     </Container>
