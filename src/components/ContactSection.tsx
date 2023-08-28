@@ -21,7 +21,7 @@ const ContactSection = () => {
           do to improve it. Your input is highly appreciated! 🙌
         </p>
       </div>
-      <div className="mt-4 flex items-center gap-8">
+      <div className="mt-4 flex flex-col md:flex-row items-center gap-8">
         <CopyToClipboard variant="secondary" text="mohd.talim.work@gmail.com" />
         <SocialLinks />
       </div>
