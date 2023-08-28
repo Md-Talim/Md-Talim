@@ -1,56 +1,45 @@
-import { StaticImageData } from 'next/image';
-import { gameshub, searchx } from '../assets';
-import { GithubIcon, GmailIcon, LinkedinIcon } from '../components/icons';
+import { Project } from '@/global';
+import { carszone, gameshub, nextbird, searchx, shoeStore } from '@/images';
 
-interface Contact {
-  name: string;
-  link: string;
-  icon: () => JSX.Element;
-}
-
-const contacts: Contact[] = [
-  {
-    name: 'Github',
-    link: 'https://www.github.com/Md-Talim/',
-    icon: GithubIcon,
-  },
-  {
-    name: 'LinkedIn',
-    link: 'https://www.linkedin.com/in/md-talim/',
-    icon: LinkedinIcon,
-  },
-  {
-    name: 'Gmail',
-    link: 'mailto:mohd.talim.work@gmail.com',
-    icon: GmailIcon,
-  },
-];
-
-interface Project {
-  name: string;
-  src: StaticImageData;
-  description: string;
-  codeLink: string;
-  liveLink: string;
-}
-
-const projects: Project[] = [
+export const projects: Project[] = [
   {
     name: 'Games Hub',
-    src: gameshub,
+    imageSrc: gameshub,
+    codeLink: 'https://github.com/Md-Talim/game-hub',
+    liveLink: 'http://gameshub-rho.vercel.app/',
     description:
-      'Games Hub is a games database. It is powered by raw games api.',
-    codeLink: 'https://www.github.com/md-talim/game-hub/',
-    liveLink: 'https://gameshub-rho.vercel.app/',
+      'A dynamic game showcase platform designed to provide detailed information about various games. A place for gamers to find their favourite games.',
   },
   {
-    name: 'Search X',
-    src: searchx,
+    name: 'Carszone',
+    imageSrc: carszone,
+    codeLink: 'https://github.com/Md-Talim/carszone',
+    liveLink: 'https://carszone.vercel.app/',
     description:
-      'Search X is a search engine. It uses the progammable search engine api from Google.',
-    codeLink: 'https://www.github.com/md-talim/search-x/',
+      'An intuitive car showcase project offering comprehensive vehicle details. A place for car lovers to find their favourite cars.',
+  },
+  {
+    name: 'NextBird',
+    imageSrc: nextbird,
+    codeLink: 'https://github.com/Md-Talim/nextbird',
+    liveLink: 'https://nextbird.vercel.app/',
+    description:
+      'A full-stack Twitter Clone with user authentication via Google and GitHub, a dynamic social platform using Next.js and MongoDB.',
+  },
+  {
+    name: 'Nike Landing Page',
+    imageSrc: shoeStore,
+    codeLink: 'https://github.com/Md-Talim/shoe-store',
+    liveLink: 'https://shoe-store-alpha.vercel.app/',
+    description:
+      'Landing page for a shoe store. It includes an awesome hero section, a special offers section as well as a newsletter section.',
+  },
+  {
+    name: 'SearchX',
+    imageSrc: searchx,
+    codeLink: 'https://github.com/Md-Talim/search-x',
     liveLink: 'https://searchx-seven.vercel.app/',
+    description:
+      "A dynamic search engine project crafted with Next.js and Tailwind CSS, powered by Google's official API",
   },
 ];
-
-export { contacts, projects };
