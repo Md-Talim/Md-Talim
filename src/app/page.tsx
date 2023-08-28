@@ -47,8 +47,9 @@ const Home = () => {
             I Design & Develop Websites.
           </h1>
           <p className="mt-6 text-xl text-zinc-600">
-            I’m Talim, a Frontend developer and user interface designer. I’m
-            final year student of Diploma in Computer Science Engineering.
+            I&apos;m Talim, a frontend developer and user interface designer.
+            I&apos;m a final-year student pursuing a diploma in Computer Science
+            Engineering.
           </p>
           <CopyToClipboard text="mohd.talim.work@gmail.com" />
           <div className="mt-6 flex gap-4">
