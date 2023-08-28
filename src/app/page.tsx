@@ -26,7 +26,7 @@ const ArrowIcon = () => (
 const Home = () => {
   return (
     <>
-      <Container className="mt-16" id="about">
+      <Container className="mt-16 sm:mt-32" id="about">
         <div className="max-w-3xl">
           <h1 className="text-4xl font-semibold text-zinc-800 sm:text-5xl">
             I Design & Develop Websites.
