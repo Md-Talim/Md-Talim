@@ -35,7 +35,7 @@ const Home = () => {
             I&apos;m a final-year student pursuing a diploma in Computer Science
             Engineering.
           </p>
-          <CopyToClipboard text="mohd.talim.work@gmail.com" />
+          <CopyToClipboard text="md.talim@skiff.com" />
           <SocialLinks />
         </div>
       </Container>
