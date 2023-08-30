@@ -52,11 +52,11 @@ const Home = () => {
             <>{index < 2 && <ProjectCard key={project.name} {...project} />}</>
           ))}
         </div>
-        <Button className="mt-6 flex">
-          <Link href="/projects" className="text-sm">
-            View all projects
+        <Button className="mt-6 flex items-center gap-1">
+          <Link href="/projects">
+            <p className="lg:text-lg text-base">View all projects</p>
           </Link>
-          <ArrowIcon className="ml-3 h-auto w-2 stroke-zinc-500 group-hover:stroke-zinc-700" />
+          <ArrowIcon className="h-auto w-2 stroke-zinc-100 group-hover:stroke-zinc-200" />
         </Button>
       </Container>
 
