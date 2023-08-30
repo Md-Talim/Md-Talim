@@ -26,11 +26,11 @@ const Home = () => {
   return (
     <>
       <Container className="mt-16 sm:mt-32" id="about">
-        <div className="max-w-3xl">
-          <h1 className="text-4xl font-semibold text-zinc-800 sm:text-5xl">
+        <div className="max-w-3xl max-sm:text-center">
+          <h1 className="text-4xl font-bold text-zinc-800 sm:text-5xl">
             I Design & Develop Websites.
           </h1>
-          <p className="mt-6 lg:text-2xl md:text-xl text-lg text-zinc-600">
+          <p className="mt-6 lg:text-2xl font-medium md:text-xl text-lg text-zinc-600">
             I&apos;m Talim, a frontend developer and user interface designer.
             I&apos;m a final-year student pursuing a diploma in Computer Science
             Engineering.
