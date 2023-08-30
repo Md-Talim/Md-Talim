@@ -1,16 +1,13 @@
 import { Layout } from '@/components/Layout';
 import '@/styles/globals.css';
 import type { Metadata } from 'next';
-import { Outfit } from 'next/font/google';
-import Local from 'next/font/local';
+import { Be_Vietnam_Pro } from 'next/font/google';
 import { Providers } from './providers';
 
-const outfit = Outfit({
-  weight: ['400', '700'],
+const primaryFont = Be_Vietnam_Pro({
+  weight: ['400', '500', '700'],
   subsets: ['latin'],
 });
-
-const satoshi = Local({ src: '../fonts/Satoshi-Variable.woff2' });
 
 export const metadata: Metadata = {
   title: {
@@ -27,7 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="h-full antialiased" suppressHydrationWarning>
-      <body className={`flex h-full bg-zinc-50 ${satoshi.className}`}>
+      <body className={`flex h-full bg-zinc-50 ${primaryFont.className}`}>
         <Providers>
           <div className="flex w-full">
             <Layout>{children}</Layout>

@@ -9,7 +9,7 @@ const Page = () => {
     <>
       <SimpleLayout
         title="Projects I've Created"
-        intro="Throughout my journey, I've dabbled in numerous pet projects, but these gems shine the brightest in my collection. Many of them embrace an open-source spirit, encouraging you to delve into the codebase. Should anything resonate with you, feel free to contribute your thoughts and ideas to elevate the experience."
+        intro="Throughout my journey, I've dabbled in numerous pet projects, but these gems shine the brightest in my collection."
       >
         <div className="flex flex-col gap-6">
           {projects.map((project: Project) => (

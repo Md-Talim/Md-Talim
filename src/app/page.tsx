@@ -27,10 +27,10 @@ const Home = () => {
     <>
       <Container className="mt-16 sm:mt-32" id="about">
         <div className="max-w-3xl max-sm:text-center">
-          <h1 className="text-4xl font-bold text-zinc-800 sm:text-5xl">
+          <h1 className="text-4xl font-medium tracking-tight text-zinc-800 sm:text-5xl">
             I Design & Develop Websites.
           </h1>
-          <p className="mt-6 lg:text-2xl font-medium md:text-xl text-lg text-zinc-600">
+          <p className="mt-6 font-normal md:text-xl text-lg text-zinc-600">
             I&apos;m Talim, a frontend developer and user interface designer.
             I&apos;m a final-year student pursuing a diploma in Computer Science
             Engineering.
@@ -41,10 +41,10 @@ const Home = () => {
       </Container>
 
       <Container className="mt-12">
-        <h2 className="text-3xl font-semibold text-zinc-800 sm:text-4xl">
+        <h2 className="text-3xl font-medium tracking-tight text-zinc-800 sm:text-4xl">
           Recent Projects
         </h2>
-        <p className="mt-3 lg:text-2xl md:text-xl text-lg text-zinc-600">
+        <p className="mt-3 md:text-xl text-lg text-zinc-600">
           Projects I&apos;m working on currently.
         </p>
         <div className="mt-8 flex flex-col gap-6">
