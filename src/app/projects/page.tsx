@@ -8,7 +8,7 @@ const Page = () => {
   return (
     <>
       <SimpleLayout
-        title="Projects I've Created"
+        title="Projects I've Build"
         intro="Throughout my journey, I've dabbled in numerous pet projects, but these gems shine the brightest in my collection."
       >
         <div className="flex flex-col gap-6">

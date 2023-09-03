@@ -5,7 +5,7 @@ import SocialLinks from './SocialLinks';
 const ContactSection = () => {
   return (
     <Container className="mt-20" id="contact">
-      <div className="max-w-3xl">
+      <div className="max-w-3xl max-sm:text-center">
         <h2 className="text-3xl font-medium tracking-tight text-zinc-800 sm:text-4xl">
           Let&apos;s Connect and Collaborate
         </h2>
