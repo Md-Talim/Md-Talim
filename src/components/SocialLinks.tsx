@@ -19,7 +19,7 @@ const SocialLink = ({
 
 const SocialLinks = () => {
   return (
-    <div className="mt-6 flex gap-4">
+    <div className="mt-6 flex gap-4 max-sm:justify-center">
       <SocialLink
         href="https://www.linkedin.com/in/md-talim/"
         label="Follow on Twitter"
