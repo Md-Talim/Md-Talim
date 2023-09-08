@@ -1,12 +1,11 @@
 import { Layout } from '@/components/Layout';
 import '@/styles/globals.css';
 import type { Metadata } from 'next';
-import { Be_Vietnam_Pro } from 'next/font/google';
+import local from 'next/font/local';
 import { Providers } from './providers';
 
-const primaryFont = Be_Vietnam_Pro({
-  weight: ['400', '500', '700'],
-  subsets: ['latin'],
+const primaryFont = local({
+  src: '../fonts/primaryFont.ttf',
 });
 
 export const metadata: Metadata = {
