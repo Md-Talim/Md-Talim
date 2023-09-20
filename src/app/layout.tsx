@@ -1,5 +1,6 @@
 import { Layout } from '@/components/Layout';
 import '@/styles/globals.css';
+import { Analytics } from '@vercel/analytics/react';
 import type { Metadata } from 'next';
 import local from 'next/font/local';
 import { Providers } from './providers';
@@ -29,6 +30,7 @@ export default function RootLayout({
             <Layout>{children}</Layout>
           </div>
         </Providers>
+        <Analytics />
       </body>
     </html>
   );
