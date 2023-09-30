@@ -1,4 +1,8 @@
-import { GitHubIcon, LinkedInIcon } from '@/components/SocialIcons';
+import {
+  GitHubIcon,
+  LinkedInIcon,
+  TwitterIcon,
+} from '@/components/SocialIcons';
 import Link from 'next/link';
 
 const SocialLink = ({
@@ -22,12 +26,18 @@ const SocialLinks = () => {
     <div className="mt-6 flex gap-4 max-sm:justify-center">
       <SocialLink
         href="https://www.linkedin.com/in/md-talim/"
-        label="Follow on Twitter"
+        label="Connect on LinkedIn"
       >
         <LinkedInIcon className="h-8 w-8 fill-zinc-500 transition group-hover:fill-zinc-600" />
       </SocialLink>
-      <SocialLink href="https://github.com/md-talim" label="Follow on Twitter">
+      <SocialLink href="https://github.com/md-talim" label="Follow on Github">
         <GitHubIcon className="h-8 w-8 fill-zinc-500 transition group-hover:fill-zinc-600" />
+      </SocialLink>
+      <SocialLink
+        href="https://twitter.com/talimbuilds"
+        label="Follow on Twitter"
+      >
+        <TwitterIcon className="h-8 w-8 fill-zinc-500 transition group-hover:fill-zinc-600" />
       </SocialLink>
     </div>
   );
