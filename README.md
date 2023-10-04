@@ -2,7 +2,7 @@
 
 <p><em>Dimploma CSE Student at <a href="https://gpindri.ac.in/">Govt. Polytechnic Indri</a></p>
 
-- 🌱 I’m currently learning **React, TypeScript**
+- 🌱 I’m currently learning **Next.js, SvelteKit, and TypeScript**
 - 🧐 Interested in **Artificial Intelligence**
 
 ### Tools and Languages
