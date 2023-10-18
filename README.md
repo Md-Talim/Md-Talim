@@ -8,7 +8,9 @@
 
 ### Tools and Languages
 
-[![My Skills](https://skillicons.dev/icons?i=react,next,typescript,tailwind,git,vercel,js,html,css,vite,github,vscode&perline=6)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=next,typescript,tailwind,react,svelte,vercel,html,css,js,vite,git,github,vscode,vim,figma)](https://skillicons.dev)
+
+### My Stats
 
 <div>
   <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=md-talim&show_icons=true&locale=en&layout=compact" alt="md-talim" /></p>
