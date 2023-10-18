@@ -1,7 +1,8 @@
 ![Banner](./Banner.png)
-### Hi there, I'm Talim! 👋
+## Hi there, I'm Talim! 👋
+### Frontend Developer
 
-<p><em>Dimploma CSE Student at <a href="https://gpindri.ac.in/">Govt. Polytechnic Indri</a></p>
+<p><em>Dimploma CSE Student at </em><a href="https://gpindri.ac.in/">Govt. Polytechnic Indri</a></p>
 
 - 🌱 I’m currently learning **Next.js, SvelteKit, and TypeScript**
 - 🧐 Interested in **Artificial Intelligence**
