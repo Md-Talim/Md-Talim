@@ -1,3 +1,4 @@
+![Banner](./Banner.png)
 ### Hi there, I'm Talim! 👋
 
 <p><em>Dimploma CSE Student at <a href="https://gpindri.ac.in/">Govt. Polytechnic Indri</a></p>
