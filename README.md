@@ -1,4 +1,4 @@
-![Banner](./Banner.png)
+![Banner](./NewBanner.png)
 ## Hi there, I'm Talim! 👋
 ### Frontend Developer
 
