@@ -1,7 +1,22 @@
 import { Project } from '@/global';
-import { carszone, gameshub, nextbird, searchx, shoeStore } from '@/images';
+import {
+  carszone,
+  gameshub,
+  jotiondocs,
+  nextbird,
+  searchx,
+  shoeStore,
+} from '@/images';
 
 export const projects: Project[] = [
+  {
+    name: 'Jotion Docs',
+    imageSrc: jotiondocs,
+    codeLink: 'https://github.com/Md-Talim/jotion-docs',
+    liveLink: 'https://jotion-docs.vercel.app/',
+    description:
+      'A full stack Notion Clone app. Easily create and share documents. Jotion is the workspace where better, faster work happens.',
+  },
   {
     name: 'Games Hub',
     imageSrc: gameshub,
