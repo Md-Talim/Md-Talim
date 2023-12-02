@@ -6,6 +6,7 @@ import {
   nextbird,
   searchx,
   shoeStore,
+  wordGame,
 } from '@/images';
 
 export const projects: Project[] = [
@@ -16,6 +17,14 @@ export const projects: Project[] = [
     liveLink: 'https://jotion-docs.vercel.app/',
     description:
       'A full stack Notion Clone app. Easily create and share documents. Jotion is the workspace where better, faster work happens.',
+  },
+  {
+    name: 'Word Game',
+    imageSrc: wordGame,
+    codeLink: 'https://github.com/Md-Talim/wordle-game-clone',
+    liveLink: 'https://wordle-game-guess.vercel.app/',
+    description:
+      'The Wordle game clone. Guess the right word within 5 guesses. Built with React + TypeScript.',
   },
   {
     name: 'Games Hub',
