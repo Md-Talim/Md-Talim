@@ -58,8 +58,8 @@ const BlogPost = ({ params }: { params: { slug: string } }) => {
   );
 };
 
-export function CustomMDX(props) {
+const CustomMDX = (props) => {
   return <MDXRemote {...props} components={{ ...(props.components || {}) }} />;
-}
+};
 
 export default BlogPost;
