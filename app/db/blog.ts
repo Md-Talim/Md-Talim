@@ -1,6 +1,10 @@
 import fs from 'fs';
-import { Metadata } from 'next';
 import path from 'path';
+
+type Metadata = {
+  title: string;
+  publishedAt: string;
+};
 
 function parseFrontmatter(fileContent: string) {
   let frontmatterRegex = /---\s*([\s\S]*?)\s*---/;
@@ -27,11 +31,6 @@ const getMDXFiles = (dir: string) => {
 const readMDXFile = (filePath: string) => {
   let rawContent = fs.readFileSync(filePath, 'utf-8');
   return parseFrontmatter(rawContent);
-};
-
-type Metadata = {
-  title: string;
-  publishedAt: string;
 };
 
 function getMDXData(dir: string) {

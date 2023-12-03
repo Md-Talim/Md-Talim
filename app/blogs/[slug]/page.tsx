@@ -58,7 +58,7 @@ const BlogPost = ({ params }: { params: { slug: string } }) => {
   );
 };
 
-const CustomMDX = (props) => {
+const CustomMDX = (props: any) => {
   return <MDXRemote {...props} components={{ ...(props.components || {}) }} />;
 };
 
