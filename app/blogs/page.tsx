@@ -15,7 +15,7 @@ const BlogsPage = () => {
         >
           <div className="w-full flex flex-col">
             <p className="text-neutral-900 dark:text-neutral-100 tracking-tight">
-              {`${post.metadata.title}`}
+              {post.metadata.title}
             </p>
           </div>
         </Link>

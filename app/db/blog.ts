@@ -29,6 +29,11 @@ const readMDXFile = (filePath: string) => {
   return parseFrontmatter(rawContent);
 };
 
+type Metadata = {
+  title: string;
+  publishedAt: string;
+};
+
 function getMDXData(dir: string) {
   let mdxFiles = getMDXFiles(dir);
   return mdxFiles.map((file) => {

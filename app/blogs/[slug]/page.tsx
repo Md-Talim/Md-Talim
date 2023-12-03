@@ -43,7 +43,7 @@ const BlogPost = ({ params }: { params: { slug: string } }) => {
     <SimpleLayout>
       <section>
         <h1 className="title font-medium text-2xl tracking-tighter max-w-[650px]">
-          {`${post.metadata.title}`}
+          {post.metadata.title}
         </h1>
         <div className="flex justify-between items-center mt-2 mb-8 text-sm max-w-[650px]">
           <p className="text-sm text-neutral-600 dark:text-neutral-400">
