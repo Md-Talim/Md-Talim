@@ -1,8 +1,8 @@
 import Container from '@/components/Container';
 
 interface Props {
-  title: string;
-  intro: string;
+  title?: string;
+  intro?: string;
   children: React.ReactNode;
 }
 
