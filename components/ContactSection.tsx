@@ -1,6 +1,7 @@
-import Container from './Container';
-import CopyToClipboard from './CopyToClipboard';
-import SocialLinks from './SocialLinks';
+import { primaryEmail } from "@/constants";
+import Container from "./Container";
+import CopyToClipboard from "./CopyToClipboard";
+import SocialLinks from "./SocialLinks";
 
 const ContactSection = () => {
   return (
@@ -22,7 +23,7 @@ const ContactSection = () => {
         </p>
       </div>
       <div className="mt-4 flex flex-col md:flex-row items-center gap-8">
-        <CopyToClipboard variant="secondary" text="md.talim@skiff.com" />
+        <CopyToClipboard variant="secondary" text={primaryEmail} />
         <SocialLinks />
       </div>
     </Container>

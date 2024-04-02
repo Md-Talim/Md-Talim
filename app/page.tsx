@@ -1,12 +1,12 @@
-import Button from '@/components/Button';
-import ContactSection from '@/components/ContactSection';
-import Container from '@/components/Container';
-import CopyToClipboard from '@/components/CopyToClipboard';
-import ProjectCard from '@/components/ProjectCard';
-import SocialLinks from '@/components/SocialLinks';
-import { projects } from '@/constants';
-import { Project } from '@/global';
-import Link from 'next/link';
+import Button from "@/components/Button";
+import ContactSection from "@/components/ContactSection";
+import Container from "@/components/Container";
+import CopyToClipboard from "@/components/CopyToClipboard";
+import ProjectCard from "@/components/ProjectCard";
+import SocialLinks from "@/components/SocialLinks";
+import { primaryEmail, projects } from "@/constants";
+import { Project } from "@/global";
+import Link from "next/link";
 
 const ArrowIcon = (props: { className: string }) => (
   <svg viewBox="0 0 24 24" aria-hidden="true" {...props}>
@@ -35,7 +35,7 @@ const Home = () => {
             I&apos;m a final-year student pursuing a diploma in Computer Science
             Engineering.
           </p>
-          <CopyToClipboard text="md.talim@skiff.com" />
+          <CopyToClipboard text={primaryEmail} />
           <SocialLinks />
         </div>
       </Container>
