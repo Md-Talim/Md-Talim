@@ -1,11 +1,11 @@
-'use client';
+"use client";
 
-import { Popover, Transition } from '@headlessui/react';
-import clsx from 'clsx';
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
-import { Fragment, useRef } from 'react';
-import Container from './Container';
+import { Popover, Transition } from "@headlessui/react";
+import clsx from "clsx";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { Fragment, useRef } from "react";
+import Container from "./Container";
 
 const ChevronDownIcon = (props: { className: string }) => (
   <svg viewBox="0 0 8 6" aria-hidden="true" {...props}>
@@ -114,10 +114,10 @@ const NavItem = ({
       <Link
         href={href}
         className={clsx(
-          'relative block px-3 py-2 transition',
+          "relative block px-3 py-2 transition",
           isActive
-            ? 'text-teal-500 dark:text-teal-400'
-            : 'hover:text-teal-500 dark:hover:text-teal-400',
+            ? "text-teal-500 dark:text-teal-400"
+            : "hover:text-teal-500 dark:hover:text-teal-400"
         )}
       >
         {children}
@@ -135,7 +135,7 @@ const DesktopNavigation = (props: { className: string }) => {
       <ul className="flex rounded-full bg-white/90 px-3 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10">
         <NavItem href="/">Home</NavItem>
         <NavItem href="/projects">Projects</NavItem>
-        <NavItem href="/blogs">Blog</NavItem>
+        {/* <NavItem href="/blogs">Blog</NavItem> */}
       </ul>
     </nav>
   );
