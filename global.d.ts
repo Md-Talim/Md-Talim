@@ -1,4 +1,4 @@
-import { StaticImageData } from 'next/image';
+import { StaticImageData } from "next/image";
 
 export interface Project {
   name: string;
@@ -6,4 +6,10 @@ export interface Project {
   codeLink: string;
   liveLink: string;
   description: string;
+}
+
+export interface SocialLink {
+  label: string;
+  link: string;
+  icon: (props: { className: string }) => JSX.Element;
 }

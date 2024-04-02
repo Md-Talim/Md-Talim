@@ -1,4 +1,5 @@
-import { Project } from "@/global";
+import { GitHubIcon, LinkedInIcon } from "@/components/SocialIcons";
+import { Project, SocialLink } from "@/global";
 import {
   carszone,
   gameshub,
@@ -65,6 +66,19 @@ export const projects: Project[] = [
     liveLink: "https://searchx-seven.vercel.app/",
     description:
       "A dynamic search engine project crafted with Next.js and Tailwind CSS, powered by Google's official API",
+  },
+];
+
+export const socialLinks: SocialLink[] = [
+  {
+    label: "Connect on LinkedIn",
+    link: "https://www.linkedin.com/in/md-talim/",
+    icon: LinkedInIcon,
+  },
+  {
+    label: "Follow on GitHub",
+    link: "https://github.com/md-talim",
+    icon: GitHubIcon,
   },
 ];
 

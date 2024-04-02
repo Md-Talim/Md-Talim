@@ -1,9 +1,5 @@
-import {
-  GitHubIcon,
-  LinkedInIcon,
-  TwitterIcon,
-} from '@/components/SocialIcons';
-import Link from 'next/link';
+import { socialLinks } from "@/constants";
+import Link from "next/link";
 
 const SocialLink = ({
   children,
@@ -24,21 +20,11 @@ const SocialLink = ({
 const SocialLinks = () => {
   return (
     <div className="mt-6 flex gap-4 max-sm:justify-center">
-      <SocialLink
-        href="https://www.linkedin.com/in/md-talim/"
-        label="Connect on LinkedIn"
-      >
-        <LinkedInIcon className="h-8 w-8 fill-zinc-500 transition group-hover:fill-zinc-600" />
-      </SocialLink>
-      <SocialLink href="https://github.com/md-talim" label="Follow on Github">
-        <GitHubIcon className="h-8 w-8 fill-zinc-500 transition group-hover:fill-zinc-600" />
-      </SocialLink>
-      <SocialLink
-        href="https://twitter.com/talimbuilds"
-        label="Follow on Twitter"
-      >
-        <TwitterIcon className="h-8 w-8 fill-zinc-500 transition group-hover:fill-zinc-600" />
-      </SocialLink>
+      {socialLinks.map(({ label, link, icon: Icon }) => (
+        <SocialLink key={link} href={link} label={label}>
+          <Icon className="h-8 w-8 fill-zinc-500 transition group-hover:fill-zinc-600" />
+        </SocialLink>
+      ))}
     </div>
   );
 };
