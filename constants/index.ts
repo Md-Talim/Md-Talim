@@ -1,8 +1,10 @@
 import { GitHubIcon, LinkedInIcon } from "@/components/SocialIcons";
 import { Project, SocialLink } from "@/global";
 import {
+  askpro,
   carszone,
   gameshub,
+  gameshubNext,
   jotiondocs,
   nextbird,
   searchx,
@@ -11,6 +13,22 @@ import {
 } from "@/images";
 
 export const projects: Project[] = [
+  {
+    name: "Ask Pro",
+    imageSrc: askpro,
+    codeLink: "https://github.com/Md-Talim/ask-pro",
+    liveLink: "https://askpro.vercel.app/",
+    description:
+      "AskPro is a dynamic Q&A platform designed to foster knowledge sharing and community interaction, similar to Stack Overflow.",
+  },
+  {
+    name: "Games Hub Next",
+    imageSrc: gameshubNext,
+    codeLink: "https://github.com/Md-Talim/games-hub-next",
+    liveLink: "https://games-hub-next.vercel.app/",
+    description:
+      "A game browsing application to get detailed information about games, including screenshots, available platforms, and ratings.",
+  },
   {
     name: "Jotion Docs",
     imageSrc: jotiondocs,
