@@ -100,4 +100,4 @@ export const socialLinks: SocialLink[] = [
   },
 ];
 
-export const primaryEmail = "the.mohd.talim@gmail.com";
+export const primaryEmail = "mohd.talim.work@gmail.com";
