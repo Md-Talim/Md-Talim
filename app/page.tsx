@@ -31,9 +31,10 @@ const Home = () => {
             I Design & Develop Websites.
           </h1>
           <p className="mt-6 font-normal md:text-xl text-lg text-zinc-600">
-            I&apos;m Talim, a frontend developer and user interface designer.
-            I&apos;m a final-year student pursuing a diploma in Computer Science
-            Engineering.
+            Hello, I&apos;m Talim, a front-end developer. I&apos;m in my final
+            year of studying Computer Science Engineering. I focus on creating
+            websites that are easy to use and look great. I enjoy paying
+            attention to details and always aim to do my best.
           </p>
           <CopyToClipboard text={primaryEmail} />
           <SocialLinks />

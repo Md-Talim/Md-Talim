@@ -8,18 +8,20 @@ const ContactSection = () => {
     <Container className="mt-20" id="contact">
       <div className="max-w-3xl max-sm:text-center">
         <h2 className="text-3xl font-medium tracking-tight text-zinc-800 sm:text-4xl">
-          Let&apos;s Connect and Collaborate
+          Let&apos;s Work Together!
         </h2>
         <p className="mt-3 md:text-xl text-lg text-zinc-600">
-          Hey friend 👋,
+          Hi there 👋,
           <br />
-          Let&apos;s connect and make something awesome together! If you need
-          help, have questions, or just want to chat, I&apos;m here for you.
-          Feel free to drop me a line anytime!
+          Are you looking for a dedicated and skilled front-end developer to
+          join your team? Let&apos;s connect and create something exceptional!
+          Whether you have questions, need assistance, or want to discuss
+          potential opportunities, I&apos;m here and ready to help.
           <br />
           <br />
-          P.S. Do you like my portfolio? If not, please let me know what I can
-          do to improve it. Your input is highly appreciated! 🙌
+          P.S. Your feedback is invaluable! If you have any suggestions to
+          improve my portfolio, please let me know. Your input is highly
+          appreciated! 🙌
         </p>
       </div>
       <div className="mt-4 flex flex-col md:flex-row items-center gap-8">
