@@ -31,7 +31,9 @@ export default function RootLayout({
   return (
     <html lang="en" className="h-full antialiased" suppressHydrationWarning>
       <body className={`${sansFont.variable} ${serifFont.variable}`}>
-        <div>{children}</div>
+        <div className="max-w-5xl mx-auto py-12 px-4 min-h-screen">
+          {children}
+        </div>
         <Analytics />
       </body>
     </html>
