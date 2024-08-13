@@ -1,20 +1,26 @@
-import { Layout } from '@/components/Layout';
-import '@/styles/globals.css';
-import { Analytics } from '@vercel/analytics/react';
-import type { Metadata } from 'next';
-import local from 'next/font/local';
-import { Providers } from './providers';
+import { Analytics } from "@vercel/analytics/react";
+import type { Metadata } from "next";
+import { Be_Vietnam_Pro, EB_Garamond } from "next/font/google";
+import "./globals.css";
 
-const primaryFont = local({
-  src: '../fonts/primaryFont.ttf',
+const sansFont = Be_Vietnam_Pro({
+  weight: ["400", "600", "700", "800", "900"],
+  subsets: ["latin"],
+  variable: "--font-sans",
+});
+
+const serifFont = EB_Garamond({
+  weight: ["600", "800"],
+  subsets: ["latin"],
+  variable: "--font-serif",
 });
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - Md. Talim',
-    default: 'Md. Talim - Frontend Developer, Programmer, and College Student',
+    template: "%s - Md. Talim",
+    default: "Md. Talim",
   },
-  description: 'I’m Talim, a Frontend Developer.',
+  description: "Building experiences for the web.",
 };
 
 export default function RootLayout({
@@ -24,12 +30,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="h-full antialiased" suppressHydrationWarning>
-      <body className={`flex h-full bg-zinc-50 ${primaryFont.className}`}>
-        <Providers>
-          <div className="flex w-full">
-            <Layout>{children}</Layout>
-          </div>
-        </Providers>
+      <body className={`${sansFont.variable} ${serifFont.variable}`}>
+        <div>{children}</div>
         <Analytics />
       </body>
     </html>
