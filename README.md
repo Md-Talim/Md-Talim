@@ -22,7 +22,7 @@
 
 ### Programming Languages
 
-![Programming Languages](https://skillicons.dev/icons?i=python,java,js,cpp)
+![Programming Languages](https://skillicons.dev/icons?i=js,python,java,cpp)
 
 ### Tools I Use
 
@@ -30,7 +30,7 @@
 
 ### Exploring & Learning
 
-![My Skills](https://skillicons.dev/icons?i=threejs,svelte)
+![My Skills](https://skillicons.dev/icons?i=rust,threejs,svelte)
 
 ## My Stats
 
