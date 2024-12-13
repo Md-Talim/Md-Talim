@@ -2,6 +2,7 @@
 
 import { OutlineButton } from "@/components/buttons";
 import { Reveal } from "@/components/utils/reveal";
+import { DotGrid } from "./dot-grid";
 
 export const HeroSection = () => (
   <section className="overflow-hidden py-24 text-slate-100 md:py-32">
@@ -29,6 +30,7 @@ export const HeroSection = () => (
           </OutlineButton>
         </Reveal>
       </div>
+      <DotGrid />
     </div>
   </section>
 );
