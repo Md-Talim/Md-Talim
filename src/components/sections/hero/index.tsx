@@ -1,7 +1,7 @@
 "use client";
 
 import { OutlineButton } from "@/components/buttons";
-import { Reveal } from "@/components/utils/reveal";
+import { Reveal } from "@/components/utils";
 import { DotGrid } from "./dot-grid";
 
 export const HeroSection = () => (

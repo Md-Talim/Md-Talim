@@ -1,6 +1,6 @@
 import { Sidebar } from "@/components/navigation";
 import type { Metadata } from "next";
-import { Geist } from "next/font/google";
+import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -8,7 +8,7 @@ const geistSans = Geist({
   subsets: ["latin"],
   variable: "--sans",
 });
-const geistMono = Geist({
+const geistMono = Geist_Mono({
   weight: ["400", "600", "800"],
   subsets: ["latin"],
   variable: "--mono",

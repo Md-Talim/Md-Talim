@@ -1,5 +1,5 @@
 import { Header } from "@/components/navigation";
-import { HeroSection } from "@/components/sections/hero";
+import { AboutSection, HeroSection } from "@/components/sections";
 
 const HomePage = () => {
   return (
@@ -7,6 +7,7 @@ const HomePage = () => {
       <Header />
       <div className="mx-auto max-w-5xl space-y-32 px-4 pb-24 md:px-8">
         <HeroSection />
+        <AboutSection />
       </div>
     </main>
   );
