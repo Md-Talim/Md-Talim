@@ -1,5 +1,11 @@
+import { Header } from "@/components/navigation";
+
 const HomePage = () => {
-  return <div>portfolio</div>;
+  return (
+    <main>
+      <Header />
+    </main>
+  );
 };
 
 export default HomePage;

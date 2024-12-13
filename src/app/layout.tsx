@@ -1,3 +1,4 @@
+import { Sidebar } from "@/components/navigation";
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import "./globals.css";
@@ -40,7 +41,10 @@ const RootLayout = ({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <div className="grid grid-cols-[54px_1fr]">
+          <Sidebar />
+          {children}
+        </div>
       </body>
     </html>
   );
