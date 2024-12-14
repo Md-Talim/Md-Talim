@@ -1,7 +1,13 @@
-export const sidebarLinks = [
+export const sectionLinks = [
   {
     href: "#about",
-    label: "About",
+    value: "about",
+    name: "About",
+  },
+  {
+    href: "#projects",
+    value: "projects",
+    name: "Projects",
   },
 ];
 

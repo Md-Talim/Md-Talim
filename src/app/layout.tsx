@@ -39,6 +39,7 @@ const RootLayout = ({
   return (
     <html lang="en">
       <body
+        id="root"
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <div className="grid grid-cols-[54px_1fr]">
