@@ -12,25 +12,21 @@
 
 ## Tools and Languages
 
-### My Favorite Stack
-
-![Favorite Stack](https://skillicons.dev/icons?i=next,typescript,tailwind,react,bun)
-
 ### Web Technologies
 
-![My Skills](https://skillicons.dev/icons?i=html,css,js,vite)
-
-### Programming Languages
-
-![Programming Languages](https://skillicons.dev/icons?i=js,python,java,cpp)
+![](https://skillicons.dev/icons?i=next,typescript,tailwind,react,html,css,javascript)
 
 ### Tools I Use
 
-![My Skills](https://skillicons.dev/icons?i=git,github,vscode,vercel,figma,notion)
+![My Skills](https://skillicons.dev/icons?i=git,github,vscode,vercel,bun,figma)
+
+### Programming Languages
+
+![Programming Languages](https://skillicons.dev/icons?i=python,java,cpp)
 
 ### Exploring & Learning
 
-![My Skills](https://skillicons.dev/icons?i=rust,threejs,svelte)
+![My Skills](https://skillicons.dev/icons?i=rust,go,threejs)
 
 ## My Stats
 
