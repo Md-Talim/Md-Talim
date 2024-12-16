@@ -1,6 +1,7 @@
 import { Header } from "@/components/navigation";
 import {
   AboutSection,
+  ContactSection,
   HeroSection,
   ProjectsSection,
 } from "@/components/sections";
@@ -13,6 +14,7 @@ const HomePage = () => {
         <HeroSection />
         <AboutSection />
         <ProjectsSection />
+        <ContactSection />
       </div>
     </main>
   );

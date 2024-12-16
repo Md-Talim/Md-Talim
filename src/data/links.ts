@@ -9,6 +9,11 @@ export const sectionLinks = [
     value: "projects",
     name: "Projects",
   },
+  {
+    href: "#contact",
+    value: "contact",
+    name: "Contact",
+  },
 ];
 
 export const contact = {
