@@ -1,5 +1,6 @@
 "use client";
 
+import { sectionLinks } from "@/data/links";
 import { motion } from "motion/react";
 import { useEffect, useState } from "react";
 import { SidebarLink } from "./sidebar-link";
@@ -14,13 +15,16 @@ export const Sidebar = () => {
       threshold: 0.3,
     };
 
-    const callback = (entries: IntersectionObserverEntry[]) => {
-      entries.forEach((entry: IntersectionObserverEntry) => {
-        setSelected(entry.target.id);
+    const callback = (entries: any) => {
+      entries.forEach((entry: any) => {
+        if (entry.isIntersecting) {
+          setSelected(entry.target.id);
+        }
       });
     };
 
     const observer = new IntersectionObserver(callback, options);
+
     sections.forEach((section) => observer.observe(section));
   }, []);
 
@@ -35,12 +39,15 @@ export const Sidebar = () => {
         M<span className="text-indigo-500">.</span>
       </span>
 
-      <SidebarLink
-        href="#about"
-        label="About"
-        selected={selected}
-        setSelected={setSelected}
-      />
+      {sectionLinks.map((section) => (
+        <SidebarLink
+          key={section.label}
+          href={section.href}
+          label={section.label}
+          selected={selected}
+          setSelected={setSelected}
+        />
+      ))}
     </motion.nav>
   );
 };

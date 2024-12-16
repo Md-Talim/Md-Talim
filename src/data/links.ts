@@ -1,18 +1,15 @@
 export const sectionLinks = [
   {
     href: "#about",
-    value: "about",
-    name: "About",
+    label: "About",
   },
   {
     href: "#projects",
-    value: "projects",
-    name: "Projects",
+    label: "Projects",
   },
   {
     href: "#contact",
-    value: "contact",
-    name: "Contact",
+    label: "Contact",
   },
 ];
 
