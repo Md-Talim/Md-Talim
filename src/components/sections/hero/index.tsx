@@ -8,7 +8,7 @@ export const HeroSection = () => (
   <section className="overflow-hidden py-24 text-slate-100 md:py-32">
     <div className="relative">
       <div className="pointer-events-none relative z-10 space-y-4">
-        <Reveal>
+        <Reveal className="py-3">
           <h1 className="pointer-events-auto text-4xl font-black text-zinc-100 sm:text-6xl md:text-8xl">
             I'm Talim, a{" "}
             <span className="text-indigo-500">Software Engineer</span>

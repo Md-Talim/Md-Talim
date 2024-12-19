@@ -1,15 +1,16 @@
 import { Sidebar } from "@/components/navigation";
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { JetBrains_Mono, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
+const beVietnamPro = Plus_Jakarta_Sans({
   weight: ["400", "600", "800"],
   subsets: ["latin"],
   variable: "--sans",
 });
-const geistMono = Geist_Mono({
-  weight: ["400", "600", "800"],
+
+const jetBrainsMono = JetBrains_Mono({
+  weight: ["400", "600"],
   subsets: ["latin"],
   variable: "--mono",
 });
@@ -40,7 +41,7 @@ const RootLayout = ({
     <html lang="en">
       <body
         id="root"
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${beVietnamPro.variable} ${jetBrainsMono.variable} antialiased`}
       >
         <div className="grid grid-cols-[54px_1fr]">
           <Sidebar />

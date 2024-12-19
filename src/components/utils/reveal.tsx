@@ -6,10 +6,11 @@ import { ReactNode, useEffect, useRef } from "react";
 
 interface Props {
   children: ReactNode;
+  className?: string;
   width?: string;
 }
 
-export const Reveal = ({ children, width = "w-fit" }: Props) => {
+export const Reveal = ({ children, className, width = "w-fit" }: Props) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
@@ -24,7 +25,10 @@ export const Reveal = ({ children, width = "w-fit" }: Props) => {
   }, [isInView]);
 
   return (
-    <div ref={ref} className={clsx("relative overflow-hidden", width)}>
+    <div
+      ref={ref}
+      className={clsx("relative overflow-hidden", width, className)}
+    >
       <motion.div
         variants={{
           hidden: { opacity: 0, y: 75 },
