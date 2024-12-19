@@ -12,8 +12,6 @@
 
 ## Tools and Languages
 
-## Tools and Languages
-
 ### Web Technologies
 
 ![](https://skillicons.dev/icons?i=next,typescript,tailwind,react,html,css,javascript)
