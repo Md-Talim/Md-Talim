@@ -22,7 +22,7 @@ export const DotGrid = () => {
       ],
       delay: anime.stagger(100, {
         grid: [GRID_WIDTH, GRID_HEIGHT],
-        from: e.target.dataset.index,
+        from: parseInt((e.target as HTMLElement).dataset.index!),
       }),
     });
   };
