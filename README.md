@@ -11,16 +11,15 @@
 
 #### I build. I break. I learn. I repeat.
 
-- 🛠 **Building:** Backend, low-level systems, and dev tools
-- 📚 **Learning:** OS, DBMS, networking, and software design
-- 🚀 **Goal:** Mastering backend & systems programming
+* 🎯 **Goal:** Break into tech and grow as a developer
+* 🛠 **Currently:** Solving real-world coding challenges and building impactful projects
+* 💪 **Focus:**
+  * **Frontend**: advanced UI, GSAP & Framer Motion animations
+  * **Fundamentals**: TDD, design patterns, and system internals through Codecrafters
 
-#### ⚡ **Tech Stack & Tools**
+#### 🔧 Tech Stack
 
-- 💻 **Low-Level:** `Java`, `Go`, `C/C++` _(exploring `Rust`)_
-- 🌐 **Web:** `TypeScript` (`Node.js`, `Next.js`, `Express`), `PostgreSQL`, (exploring backend with `Java` & `Go`)
-
-#### 🔥 Currently Exploring
-
-- 🛠 **Kafka Internals** – **Building** the Kafka challenge & **understanding** distributed messaging
-- 📖 **Interpreters** – **Reading** _Crafting Interpreters_ & **improving** my own implementation
+* 💻 **Frontend:** `Next.js`, `TypeScript`, `Tailwind CSS`, `React`
+* 🌐 **Backend (Learning):** `Node.js`, `Express`, `PostgreSQL`, `Go`
+* 🔍 **Low-Level Projects:** `Go`, `Java`
+* 📦 **Tools:** `Git`, `VS Code`, `WSL`, `Figma`
