@@ -11,7 +11,7 @@
 
 I [build systems from scratch](https://app.codecrafters.io/users/Md-Talim) to understand how things work under the hood.
 
-**Deep diving into systems internals and distributed backend architectures.** Currently seeking **Full-Stack/ Systems Engineering** roles (B.Tech '27).
+**Distributed systems and high-performance backends.** Go, Java. I build production-grade systems from the ground up — not abstractions over abstractions. Currently seeking backend/systems engineering roles (B.Tech '27).
 
 **Core Tech:** `Java`, `Go`, `JS/TS`, `SQL` | `Docker`, `Linux`, `Neovim`, `Zed`
 
