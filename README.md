@@ -1,4 +1,4 @@
-<img src="./hello-world.svg" alt="Adaptive Text Logo" width="604">
+<img src="./hello-world.svg" alt="Hello, World!" width="604">
 
 I build systems from scratch to understand how they work.
 
