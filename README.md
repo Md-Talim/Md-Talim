@@ -1,4 +1,4 @@
-<img src="./hello-world.svg" alt="Hello, World!" width="604">
+<img src="https://github.com/user-attachments/assets/a0d47357-a33f-4d3b-bbf0-05f1be366dc1" alt="Hello, World!" width="604">
 
 I build systems from scratch to understand how they work.
 
