@@ -2,6 +2,8 @@
 
 I build systems from scratch to understand how they work.
 
-Currently focused on distributed systems, backend infrastructure and databases.
+Currently focused on **distributed systems**, **backend infrastructure** and **databases**.
 
-**Stack:** `Go`, `PostgreSQL`, `Linux`
+Recently wrote about building [dhara](https://medium.com/@md-talim/i-built-a-distributed-task-queue-from-scratch-with-go-and-postgresql-42b705503737?sharedUserId=md-talim) from scratch.
+
+**Stack:** `Go`, `Java`, `PostgreSQL`, `Linux`
